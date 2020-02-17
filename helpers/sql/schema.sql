@@ -11,7 +11,7 @@ CREATE TYPE "status" AS ENUM ('ACTIVE', 'INACTIVE');
 CREATE TABLE public.places (
 	id text PRIMARY KEY DEFAULT uuid_generate_v4(),
 	"name" text NOT NULL,
-	street_address VARCHAR(10),
+	street_address VARCHAR(50),
 	zip_code VARCHAR(10),
 	city VARCHAR(10),
 	state VARCHAR(2),
