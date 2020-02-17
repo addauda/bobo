@@ -1,5 +1,5 @@
-DROP TABLE IF EXISTS public.places;
 DROP TABLE IF EXISTS public.timings;
+DROP TABLE IF EXISTS public.places;
 DROP TYPE IF EXISTS "prayers";
 DROP TYPE IF EXISTS "status";
 
